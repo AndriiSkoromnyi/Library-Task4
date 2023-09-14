@@ -44,7 +44,7 @@ public class MainScreen : ILibrary
                     break;
             }
 
-        } while (choice != 7);
+        } while (choice != 4);
     }
 
 

@@ -1,5 +1,4 @@
 ﻿using Library_Task4.Class;
-using System;
 
 namespace Library_Task4.Manage
 {
@@ -203,8 +202,6 @@ namespace Library_Task4.Manage
             // By default, a new book is assumed to be available for borrowing
             return new Book(title, author, isbn, true);
         }
-
-
 
         public void PauseExecution()
         {
